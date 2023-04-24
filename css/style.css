@@ -9,9 +9,11 @@
 .text{
     font-size: 30px;
 }
-
+span{
+    font-size: 50px;
+}
 main{
-    background-color: rgba(0, 128, 0, 0.144);
+    background-color: rgba(43, 196, 196, 0.432);
 }
 .logo{
     width: auto;
@@ -22,11 +24,13 @@ main{
 .img-cover{
     display: flex;
     margin-bottom: 20px;
+    margin-right: 20px;
     border-radius: 20px;
     box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
-    width: 700px;
-    height: auto;
+    width: 1000px;
+    height: 450px;;
     object-fit: cover;
+    object-position:top;
 }
 .main-cover{
     display: flex;
@@ -41,25 +45,16 @@ main{
 .img-cover2{
     display: flex;
     margin-bottom: 20px;
+    margin-left: 5px;
     border-radius: 20px;
     box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
     width: 1000px;
     height: auto;
     object-fit: cover;
 }
-.evenement{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.img{
-    display: flex;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
-    width: 600px;
-    height: auto;
-    object-fit: cover;
+iframe{
+    margin-bottom: 15px;
+    margin-left: 150px;
 }
 #form-contact{
     max-width: 80%;
@@ -82,13 +77,12 @@ footer{
     .text{
         font-size: 20px;
     }
+    span{
+        font-size: 35px;
+    }
     .main-cover{
         display: flex;
         flex-direction: column;
-    }
-    .img-cover{
-        width: 400px;
-        height: auto;
     }
     .main-cover2{
         display: flex;
@@ -98,10 +92,7 @@ footer{
         width: 400px;
         height: auto;
     }
-    .img{
-        width: 120px;
-        height: auto;
-    }
+
 }
 @media (max-width:1200px){
     *{
@@ -114,13 +105,17 @@ footer{
     .text{
         font-size: 20px;
     }
+    span{
+        font-size: 35px;
+    }
     .main-cover{
         display: flex;
         flex-direction: column;
     }
     .img-cover{
         width: 400px;
-        height: auto;
+        height: 300px;
+        margin-left: 30px;
     }
     .main-cover2{
         display: flex;
@@ -133,5 +128,10 @@ footer{
     .img{
         width: 120px;
         height: auto;
+    }
+    iframe{
+        width: 500px;
+        height: auto;
+        margin-left: 30px;
     }
 }
