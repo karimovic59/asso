@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alkatra', cursive;
+}
+.main-title{
+    font-size: 80px;
+}
+.text{
+    font-size: 30px;
+}
+
+main{
+    background-color: rgba(0, 128, 0, 0.144);
+}
+.logo{
+    width: auto;
+    height: 80px;
+    border-radius: 20%;
+}
+
+.img-cover{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
+    width: 700px;
+    height: auto;
+    object-fit: cover;
+}
+.main-cover{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main-cover2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.img-cover2{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
+    width: 1000px;
+    height: auto;
+    object-fit: cover;
+}
+.evenement{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 9px rgba(70, 49, 10, 0.8);
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+#form-contact{
+    max-width: 80%;
+margin-left: 50px;
+}
+footer{
+    background-color: black;
+}
+.footer-top{
+    font-size: 20px;
+}
+@media (max-width:600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .main-title{
+        font-size: 40px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .main-cover{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-cover{
+        width: 400px;
+        height: auto;
+    }
+    .main-cover2{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-cover2{
+        width: 400px;
+        height: auto;
+    }
+    .img{
+        width: 120px;
+        height: auto;
+    }
+}
+@media (max-width:1200px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .main-title{
+        font-size: 40px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .main-cover{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-cover{
+        width: 400px;
+        height: auto;
+    }
+    .main-cover2{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-cover2{
+        width: 400px;
+        height: auto;
+    }
+    .img{
+        width: 120px;
+        height: auto;
+    }
+}
